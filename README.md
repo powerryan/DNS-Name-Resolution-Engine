@@ -6,8 +6,7 @@ Multi-threaded application that resolves domain names to IP addresses.
 resolves a set of domain names to IP addresses
 
 ## Command line Arguments
-<# parsing threads> <# conversion threads> <parsing log>
-<converter log> [ <datafile> ...]
+<# parsing threads> <# conversion threads> <parsing log> <converter log> [ <datafile> ...]
 
 ## Description
 The file names specified by <data file> are passed to the pool of parser
@@ -16,9 +15,11 @@ threads read the shared data area and find the corresponding IP address.
 
 ## Build
 Enter into the command line:
+  
 `make`
 
 ## Run
 Enter into the command line:
+  
 `./multi-lookup <# parsing threads> <# conversion threads>
 <parsing log> <converter log> [ <datafile> ...]`
