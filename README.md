@@ -1,4 +1,4 @@
-### Ryan Power
+#### Ryan Power
 
 Multi-threaded application that resolves domain names to IP addresses.
 
