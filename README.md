@@ -10,13 +10,13 @@ threads read the shared data area and find the corresponding IP address.
 resolves a set of domain names to IP addresses
 
 ### Command line Arguments
-  <# parsing threads> <# conversion threads> <parsing log> <converter log> <datafile>
+  <# parsing threads><# conversion threads><parsing log><converter log><datafile>
 
 ### Build
-Enter into the command line:
-  `make`
+Enter into the command line:  
+`make`
 
 ### Run
-Enter into the command line:
-  `./multi-lookup <# parsing threads> <# conversion threads>
+Enter into the command line:  
+`./multi-lookup <# parsing threads> <# conversion threads>
 <parsing log> <converter log> [ <datafile> ...]`
