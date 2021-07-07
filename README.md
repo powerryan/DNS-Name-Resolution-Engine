@@ -10,7 +10,7 @@ threads read the shared data area and find the corresponding IP address.
 resolves a set of domain names to IP addresses
 
 ### Command line Arguments
-# parsing threads, # conversion threads, parsing log, converter log, [input datafiles]
+number of parsing threads, number of conversion threads, parsing log, converter log, [input datafiles]
 
 ### Build  
 Enter into the command line:  
